@@ -1,0 +1,23 @@
+CSS <sascasing style sheets>:层叠样式表
+    1、作用：用来为网页的html元素定义显示风格和样式
+    2、CSS的引入方式：
+        1、元素内嵌：
+            语法：--<标签名 style='css代码'>
+        2、将css代码统一定义在<style>标签里
+            <head>
+            <style type="text/css">
+                    选择器{css代码}
+                
+            </style>
+            </head>
+        3、将css代码单独定义在一个已.css文件中，在外嗯也中通过<link>引入制定的css文件
+            语法：
+                <head>
+                    <link type="text/css" rel="stylesheet" href="css文件路径"/>
+                </head>
+    3 CSS语法
+        ---选择器{属性名 属性值 属性名 属性值}
+        其中选择器的写法：
+        1、元素选择器：用标签名做选择器
+            h1{color:red}
+        2、类选择器：  类别名{css代码}
